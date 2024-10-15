@@ -1,0 +1,111 @@
+/* App.css */
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  /* background-color: #F7F5F5; */
+}
+
+h2 {
+  color: #472563 !important;
+}
+
+h3 {
+  color: #7A1CAC  !important;
+  white-space: nowrap;
+}
+
+h5 {
+  color: #000000 !important;
+}
+
+button {
+  background-color: #876A98;
+  color: white;
+  border: none;
+  padding: 6px 20px;
+  border-radius: 5px !important;
+  cursor: pointer;
+  font-size: large;
+  font-family: cursive;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  background: white; /* Optional: add background to avoid content behind the logo */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 6px 0; 
+}
+
+.logo {
+  max-width: 50%; /* Adjust as necessary */
+  height: auto;
+}
+
+.main-content {
+  padding-top: 70px; /* Adjust based on the height of the logo-container */
+}
+
+
+/* globalStyles.css */
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* Collapse borders */
+  background: white; /* Set background to white */
+  max-height: 500px; /* Height of the scrollable area */
+  overflow-y: auto;  /* Enable vertical scrolling */
+}
+
+thead {
+  position: sticky;
+  top: 0; /* Stick to the top of the container */
+  background-color: #6B4A8F; /* Dark header background */
+  color: white; /* White text color for headers */
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid rgb(214, 230, 236); /* Soft border color */
+  text-align: left;
+}
+
+th {
+  font-size: 1rem;
+  font-weight: bold; 
+  position: sticky;
+  top: 0;
+  background: #6B4A8F; /* Dark header background */
+}
+
+td {
+  color: black; /* Black text color for table data */
+}
+
+/* Alternating row colors */
+tbody tr:nth-child(odd) {
+  background-color: white; /* White background for odd rows */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light grey background for even rows */
+}
+
+th {
+  white-space: nowrap; /* Prevent header text from wrapping */
+}
+
+/* Remove border from the first and last cells */
+th:first-child, td:first-child {
+  border-left: none;
+}
+
+th:last-child, td:last-child {
+  border-right: none;
+}
+

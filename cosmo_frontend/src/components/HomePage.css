@@ -1,0 +1,46 @@
+.homepage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 70vw;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('./images/main-image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.links-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    position: absolute;
+    top: 5%;
+    z-index: 2; /* Ensure it stays above the images */
+    background-color: rgba(249, 240, 255, 0.8); /* Light lavender with transparency */
+    backdrop-filter: blur(10px); /* Adds a subtle blur effect to enhance the crystal-like appearance */
+}
+
+
+.styled-link {
+    text-decoration: none;
+    color: #766087;
+    font-size: 1.4rem;
+    margin: 0 15px;
+    display: inline-block;
+    transition: color 0.3s, font-size 0.3s;
+    font-family: initial;
+    font-weight: 600 ;
+}
+
+.styled-link:hover {
+    color: #9a85aa;
+    transform: scale(1.1);
+}

@@ -1,0 +1,30 @@
+.login {
+    position: fixed;
+    top: 13%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 65%;
+    height: 80%;
+    background-image: url('./images/background-panel-image-login.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-container {
+    color: #472563;
+    font-weight: bold;
+    z-index: 2; /* Ensure it stays above the images */
+    backdrop-filter: blur(10px); /* Adds a subtle blur effect to enhance the crystal-like appearance */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color:rgb(237,237,237,.1);
+    font-size: 1.2rem;
+  }

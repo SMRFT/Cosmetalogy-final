@@ -1,0 +1,59 @@
+.form-container {
+    background-image: url('../components/images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #34194d;
+  }
+
+  .custom-input {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f0f4f7;
+    border: none;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+  }
+  
+  .gender-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .gender-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .gender-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  
+  .gender-option:hover,
+  .gender-option.selected {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  
+  .gender-icon {
+    width: 30px;
+  }
+  
+  .gender-option div {
+    margin-top: 5px;
+  }
+
+  .modal-width .modal-dialog {
+    margin-top: 110px;
+    max-width: 30%;
+}
